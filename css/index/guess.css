@@ -1,0 +1,170 @@
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.two-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.red-line {
+  position: absolute;
+  left: 0;
+  top: 0.5997vh;
+  display: block;
+  content: "";
+  width: 0.5333vw;
+  height: 2.3988vh;
+  background-color: #e5353e;
+}
+.grey-bottom-line {
+  position: absolute;
+  left: 4.2667vw;
+  bottom: 0;
+  display: block;
+  content: "";
+  width: 100vw;
+  height: 1px;
+  background-color: #f0f1f2;
+}
+.category-line {
+  margin: 0 auto;
+  width: 91.4667vw;
+  height: 1px;
+  background-color: #f0f1f2;
+}
+.guess {
+  margin-bottom: 3.2vw;
+  padding-top: 2.3238vh;
+  background-color: #fff;
+}
+.guess .gs-title {
+  display: flex;
+  align-items: center;
+  padding: 0 4.2667vw;
+  height: 4.1979vh;
+}
+.guess .gs-title h2 {
+  position: relative;
+  padding-left: 2.6667vw;
+  color: #33373d;
+  font-weight: bold;
+  font-size: 4.2667vw;
+}
+.guess .gs-title h2::after {
+  position: absolute;
+  left: 0;
+  top: 0.5997vh;
+  display: block;
+  content: "";
+  width: 0.5333vw;
+  height: 2.3988vh;
+  background-color: #e5353e;
+}
+.guess .gs-title p {
+  margin-left: 3.7333vw;
+  color: #969ba3;
+  font-size: 3.4667vw;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.guess .gs-list {
+  background-color: #fff;
+}
+.guess .gs-list ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.guess .gs-list ul li {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 4.2667vw 4.2667vw;
+  height: 41.3333vw;
+  overflow: hidden;
+}
+.guess .gs-list ul li::after {
+  position: absolute;
+  left: 4.2667vw;
+  bottom: 0;
+  display: block;
+  content: "";
+  width: 100vw;
+  height: 1px;
+  background-color: #f0f1f2;
+}
+.guess .gs-list ul li h6 {
+  margin: 5.0667vw 0 2.6667vw;
+}
+.guess .gs-list ul li a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.guess .gs-list ul li a .left {
+  margin-right: 2.1333vw;
+}
+.guess .gs-list ul li a .left img {
+  width: 17.6vw;
+  height: 23.4667vw;
+}
+.guess .gs-list ul li a .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 23.4667vw;
+  font-size: 3.7333vw;
+  color: #969ba3;
+}
+.guess .gs-list ul li a .right h3 {
+  font-weight: bold;
+  font-size: 4.2667vw;
+  color: #33373d;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.guess .gs-list ul li a .right p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.guess .gs-change {
+  margin-bottom: 9.6vw;
+  text-align: center;
+  width: 100vw;
+  height: 12.8vw;
+  line-height: 12.8vw;
+}
+.guess .gs-change a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #5790df;
+  font-size: 3.4667vw;
+}
+.guess .gs-change a span {
+  font-size: 4.2667vw;
+  font-weight: bold;
+}

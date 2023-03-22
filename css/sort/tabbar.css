@@ -1,0 +1,31 @@
+.tabbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4.2667vw;
+  width: 100vw;
+  height: 15.4667vw;
+  background-color: #fff;
+  box-shadow: 0 -0.02rem 0.14rem rgba(0, 0, 0, 0.08);
+}
+.tabbar .download {
+  text-align: center;
+  width: 91.4667vw;
+  height: 9.0667vw;
+  line-height: 9.0667vw;
+  border-radius: 9.6vw;
+  background: linear-gradient(270deg, #fa646d 0%, #fa323e 100%);
+}
+.tabbar .download a {
+  font-size: 3.4667vw;
+  color: #fff;
+}
+.prop {
+  width: 100vw;
+  height: 4vw;
+  border: 1px solid red;
+}

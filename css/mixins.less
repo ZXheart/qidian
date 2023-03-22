@@ -1,0 +1,62 @@
+.clearfix {
+
+  //清除浮动
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+// 单行省略
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+// 两行省略
+.two-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-clamp: 2; //两行显示
+  -webkit-line-clamp: 2; //兼容webkit
+  display: -webkit-box; //将对象作为弹性盒子显示
+  -webkit-box-orient: vertical; //从上到下垂直排列子元素
+}
+
+// 标题竖红线
+.red-line {
+  position: absolute;
+  left: 0;
+  top: 0.5997vh;
+  display: block;
+  content: "";
+  width: .5333vw;
+  height: 2.3988vh;
+  background-color: #e5353e;
+}
+
+// 列表下灰线
+.grey-bottom-line {
+  position: absolute;
+  left: 4.2667vw;
+  bottom: 0;
+  display: block;
+  content: "";
+  width: 100vw;
+  height: 1px;
+  background-color: #f0f1f2;
+}
+
+// 
+.category-line {
+  margin: 0 auto;
+  width: 91.4667vw;
+  height: 1px;
+  background-color: #f0f1f2;
+}

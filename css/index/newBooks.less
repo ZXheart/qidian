@@ -1,0 +1,150 @@
+@import url(../mixins.less);
+
+// 畅销精选
+.new-books {
+  margin-bottom: 3.2vw;
+  padding-top: 2.3238vh;
+  background-color: #fff;
+
+  .new-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4.2667vw;
+    height: 4.1979vh;
+
+    h2 {
+      position: relative;
+      padding-left: 2.6667vw;
+      color: #33373d;
+      font-weight: bold;
+      font-size: 4.2667vw;
+
+      &::after {
+        .red-line();
+      }
+    }
+
+    p {
+      flex: 1;
+      margin-left: 2.1333vw;
+      color: #969ba3;
+      font-size: 3.4667vw;
+    }
+
+    a {
+      color: #969ba3;
+      font-size: 3.7333vw;
+
+      b {
+        vertical-align: middle;
+      }
+
+      span {
+        font-size: 5.3333vw;
+        vertical-align: middle;
+      }
+    }
+  }
+
+  .new-list {
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      height: 100vw;
+
+      li {
+        position: relative;
+        margin-top: 2.2488vh;
+        padding: 0 4.2667vw 2.3988vh;
+        width: 91.4667vw;
+        height: 16.4917vh;
+
+        &::after {
+          .grey-bottom-line();
+          width: 91.4667vw;
+        }
+
+        a {
+          display: flex;
+          justify-content: center;
+          align-items: flex-end;
+
+          .left {
+            margin-right: 2.1333vw;
+
+            img {
+              width: 17.6vw;
+              height: 13.1934vh;
+            }
+          }
+
+          .right {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            height: 13.1934vh;
+
+            h3 {
+              line-height: 1.4;
+              .ellipsis();
+              font-weight: bold;
+              font-size: 4.2667vw;
+              color: #33373d;
+            }
+
+            p {
+              .two-ellipsis();
+              color: #969ba3;
+              font-size: 3.7333vw;
+            }
+
+            .bottom {
+              width: 100%;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              color: #969ba3;
+              font-size: 3.4667vw;
+
+              span {
+                font-size: 3.4667vw;
+                color: #969ba3;
+                .ellipsis();
+              }
+
+              .bottom-right {
+                font-size: 3.2vw;
+
+                b {
+                  border-radius: .5333vw;
+                  border: 1px solid rgba(150, 155, 163, .5);
+                  color: #969ba3;
+                }
+
+                i {
+                  margin-left: .5333vw;
+                  border-radius: .5333vw;
+                  border: 1px solid rgba(237, 66, 75, .5);
+                  color: #ed424b;
+                }
+
+                em {
+                  margin-left: .5333vw;
+                  border-radius: .5333vw;
+                  border: 1px solid rgba(66, 132, 237, .5);
+                  color: #4284ed;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

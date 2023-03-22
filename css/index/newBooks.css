@@ -1,0 +1,192 @@
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.two-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.red-line {
+  position: absolute;
+  left: 0;
+  top: 0.5997vh;
+  display: block;
+  content: "";
+  width: 0.5333vw;
+  height: 2.3988vh;
+  background-color: #e5353e;
+}
+.grey-bottom-line {
+  position: absolute;
+  left: 4.2667vw;
+  bottom: 0;
+  display: block;
+  content: "";
+  width: 100vw;
+  height: 1px;
+  background-color: #f0f1f2;
+}
+.category-line {
+  margin: 0 auto;
+  width: 91.4667vw;
+  height: 1px;
+  background-color: #f0f1f2;
+}
+.new-books {
+  margin-bottom: 3.2vw;
+  padding-top: 2.3238vh;
+  background-color: #fff;
+}
+.new-books .new-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4.2667vw;
+  height: 4.1979vh;
+}
+.new-books .new-title h2 {
+  position: relative;
+  padding-left: 2.6667vw;
+  color: #33373d;
+  font-weight: bold;
+  font-size: 4.2667vw;
+}
+.new-books .new-title h2::after {
+  position: absolute;
+  left: 0;
+  top: 0.5997vh;
+  display: block;
+  content: "";
+  width: 0.5333vw;
+  height: 2.3988vh;
+  background-color: #e5353e;
+}
+.new-books .new-title p {
+  flex: 1;
+  margin-left: 2.1333vw;
+  color: #969ba3;
+  font-size: 3.4667vw;
+}
+.new-books .new-title a {
+  color: #969ba3;
+  font-size: 3.7333vw;
+}
+.new-books .new-title a b {
+  vertical-align: middle;
+}
+.new-books .new-title a span {
+  font-size: 5.3333vw;
+  vertical-align: middle;
+}
+.new-books .new-list ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vw;
+}
+.new-books .new-list ul li {
+  position: relative;
+  margin-top: 2.2488vh;
+  padding: 0 4.2667vw 2.3988vh;
+  width: 91.4667vw;
+  height: 16.4917vh;
+}
+.new-books .new-list ul li::after {
+  position: absolute;
+  left: 4.2667vw;
+  bottom: 0;
+  display: block;
+  content: "";
+  width: 100vw;
+  height: 1px;
+  background-color: #f0f1f2;
+  width: 91.4667vw;
+}
+.new-books .new-list ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.new-books .new-list ul li a .left {
+  margin-right: 2.1333vw;
+}
+.new-books .new-list ul li a .left img {
+  width: 17.6vw;
+  height: 13.1934vh;
+}
+.new-books .new-list ul li a .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 13.1934vh;
+}
+.new-books .new-list ul li a .right h3 {
+  line-height: 1.4;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 4.2667vw;
+  color: #33373d;
+}
+.new-books .new-list ul li a .right p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  color: #969ba3;
+  font-size: 3.7333vw;
+}
+.new-books .new-list ul li a .right .bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #969ba3;
+  font-size: 3.4667vw;
+}
+.new-books .new-list ul li a .right .bottom span {
+  font-size: 3.4667vw;
+  color: #969ba3;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.new-books .new-list ul li a .right .bottom .bottom-right {
+  font-size: 3.2vw;
+}
+.new-books .new-list ul li a .right .bottom .bottom-right b {
+  border-radius: 0.5333vw;
+  border: 1px solid rgba(150, 155, 163, 0.5);
+  color: #969ba3;
+}
+.new-books .new-list ul li a .right .bottom .bottom-right i {
+  margin-left: 0.5333vw;
+  border-radius: 0.5333vw;
+  border: 1px solid rgba(237, 66, 75, 0.5);
+  color: #ed424b;
+}
+.new-books .new-list ul li a .right .bottom .bottom-right em {
+  margin-left: 0.5333vw;
+  border-radius: 0.5333vw;
+  border: 1px solid rgba(66, 132, 237, 0.5);
+  color: #4284ed;
+}

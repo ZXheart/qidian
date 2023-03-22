@@ -1,0 +1,133 @@
+@import url(../mixins.less);
+
+// container
+.container {
+  padding-top: 2.1333vw;
+  background-color: #f6f7f9;
+
+  >i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    padding-top: 66.6%;
+    background-image: url(../../images/topbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+  }
+}
+
+.top-content {
+  display: flow-root;
+  width: 100vw;
+  height: 5.0667vw;
+}
+
+.top {
+  position: sticky;
+  top: -1px;
+  z-index: 9;
+  // background-color: #fff;
+  padding-left: 3.2vw;
+  padding-right: 3.2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 11.7333vw;
+
+  .logo {
+    margin-right: -8.4667vw;
+    width: 30.4vw;
+    height: 11.7333vw;
+    line-height: 11.7333vw;
+
+    img {
+      width: 26.1333vw;
+      height: 4.8vw;
+    }
+  }
+
+  .sex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0 .2667vw;
+    width: 26.6667vw;
+    height: 8vw;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+
+    >div {
+      width: 13.3333vw;
+      height: 6.9333vw;
+      line-height: 6.9333vw;
+      border-radius: 6px;
+
+      a {
+        font-size: 3.4667vw;
+      }
+    }
+
+    .male {
+      background-color: #fff;
+    }
+
+    .female {
+      a {
+        color: grey;
+      }
+    }
+  }
+
+  .open {
+    text-align: center;
+    width: 19.2vw;
+    height: 7.4667vw;
+    line-height: 7.4667vw;
+    background-color: rgba(229, 53, 62, .1);
+    border-radius: 6.4vw;
+
+    a {
+      color: #e5353e;
+      font-size: 3.2vw;
+    }
+  }
+}
+
+.search {
+  position: relative;
+  margin: 4.2667vw auto 0;
+  width: 97.3333vw;
+  height: 8vw;
+
+  a {
+    display: block;
+    margin-left: 2.1333vw;
+    padding-left: 2.6667vw;
+    width: 90.9333vw;
+    height: 8vw;
+    line-height: 8vw;
+    border-radius: 8.5333vw;
+    background-color: #fff;
+    color: #ccc;
+    font-size: 3.7333vw;
+
+    span {
+      padding-right: 2.6667vw;
+      color: #969ba3;
+      font-size: 4.2667vw;
+    }
+  }
+}
+
+.banner {
+  position: relative;
+  margin: 8vw auto 0;
+  width: 93.6vw;
+  height: 29.3333vw;
+  border-radius: 2.6667vw;
+  background-color: orange;
+}

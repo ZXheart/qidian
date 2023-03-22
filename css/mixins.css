@@ -1,0 +1,47 @@
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.two-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.red-line {
+  position: absolute;
+  left: 0;
+  top: 0.5997vh;
+  display: block;
+  content: "";
+  width: 0.5333vw;
+  height: 2.3988vh;
+  background-color: #e5353e;
+}
+.grey-bottom-line {
+  position: absolute;
+  left: 4.2667vw;
+  bottom: 0;
+  display: block;
+  content: "";
+  width: 100vw;
+  height: 1px;
+  background-color: #f0f1f2;
+}
+.category-line {
+  margin: 0 auto;
+  width: 91.4667vw;
+  height: 1px;
+  background-color: #f0f1f2;
+}

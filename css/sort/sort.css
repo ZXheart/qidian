@@ -1,0 +1,54 @@
+.sort {
+  padding: 0 3.2vw;
+}
+.sort > div {
+  margin: 3.2vw auto 0;
+  padding: 3.2vw 4.2667vw;
+  width: 93.6vw;
+  background-color: #fff;
+  border-radius: 2.6667vw;
+}
+.sort > div > a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sort > div > a .left {
+  font-size: 4.2667vw;
+  font-weight: bold;
+  color: #191919;
+}
+.sort > div > a .left img {
+  margin-right: 2.1333vw;
+  vertical-align: bottom;
+}
+.sort > div > a .right {
+  font-size: 3.7333vw;
+  color: #adadad;
+}
+.sort > div > div {
+  margin-top: 2.1333vw;
+}
+.sort > div > div ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.sort > div > div ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.0667vw;
+  padding: 1.0667vw 2.4vw;
+  width: 18.6667vw;
+  height: 8.5333vw;
+  border-radius: 1.6vw;
+  background-color: #f5f5f5;
+}
+.sort > div > div ul li a {
+  color: #191919;
+  font-size: 3.4667vw;
+}
+.sort > div > div ul li:nth-child(4n+1) {
+  margin-left: 0;
+}

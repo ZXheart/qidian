@@ -1,0 +1,158 @@
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.two-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.red-line {
+  position: absolute;
+  left: 0;
+  top: 0.5997vh;
+  display: block;
+  content: "";
+  width: 0.5333vw;
+  height: 2.3988vh;
+  background-color: #e5353e;
+}
+.grey-bottom-line {
+  position: absolute;
+  left: 4.2667vw;
+  bottom: 0;
+  display: block;
+  content: "";
+  width: 100vw;
+  height: 1px;
+  background-color: #f0f1f2;
+}
+.category-line {
+  margin: 0 auto;
+  width: 91.4667vw;
+  height: 1px;
+  background-color: #f0f1f2;
+}
+.container {
+  padding-top: 2.1333vw;
+  background-color: #f6f7f9;
+}
+.container > i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  padding-top: 66.6%;
+  background-image: url(../../images/topbg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.top-content {
+  display: flow-root;
+  width: 100vw;
+  height: 5.0667vw;
+}
+.top {
+  position: sticky;
+  top: -1px;
+  z-index: 9;
+  padding-left: 3.2vw;
+  padding-right: 3.2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 11.7333vw;
+}
+.top .logo {
+  margin-right: -8.4667vw;
+  width: 30.4vw;
+  height: 11.7333vw;
+  line-height: 11.7333vw;
+}
+.top .logo img {
+  width: 26.1333vw;
+  height: 4.8vw;
+}
+.top .sex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0 0.2667vw;
+  width: 26.6667vw;
+  height: 8vw;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+.top .sex > div {
+  width: 13.3333vw;
+  height: 6.9333vw;
+  line-height: 6.9333vw;
+  border-radius: 6px;
+}
+.top .sex > div a {
+  font-size: 3.4667vw;
+}
+.top .sex .male {
+  background-color: #fff;
+}
+.top .sex .female a {
+  color: grey;
+}
+.top .open {
+  text-align: center;
+  width: 19.2vw;
+  height: 7.4667vw;
+  line-height: 7.4667vw;
+  background-color: rgba(229, 53, 62, 0.1);
+  border-radius: 6.4vw;
+}
+.top .open a {
+  color: #e5353e;
+  font-size: 3.2vw;
+}
+.search {
+  position: relative;
+  margin: 4.2667vw auto 0;
+  width: 97.3333vw;
+  height: 8vw;
+}
+.search a {
+  display: block;
+  margin-left: 2.1333vw;
+  padding-left: 2.6667vw;
+  width: 90.9333vw;
+  height: 8vw;
+  line-height: 8vw;
+  border-radius: 8.5333vw;
+  background-color: #fff;
+  color: #ccc;
+  font-size: 3.7333vw;
+}
+.search a span {
+  padding-right: 2.6667vw;
+  color: #969ba3;
+  font-size: 4.2667vw;
+}
+.banner {
+  position: relative;
+  margin: 8vw auto 0;
+  width: 93.6vw;
+  height: 29.3333vw;
+  border-radius: 2.6667vw;
+  background-color: orange;
+}
