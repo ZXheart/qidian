@@ -8,14 +8,14 @@
   align-items: center;
   text-align: center;
   width: 100vw;
-  height: 7.1964vh;
+  height: 12.8vw;
   background-color: #fff;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
 }
 .tabbar a {
   flex: 1;
-  height: 7.1964vh;
-  line-height: 7.1964vh;
+  height: 12.8vw;
+  line-height: 12.8vw;
   font-size: 4.2667vw;
   font-weight: 500;
   color: #33373d;

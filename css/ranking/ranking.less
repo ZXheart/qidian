@@ -1,0 +1,96 @@
+@import url(../mixins.less);
+
+.ranking {
+
+  >div {
+    display: flex;
+    flex-direction: column;
+    margin: 3.2vw;
+    padding-bottom: 3.2vw;
+    background-color: #fff;
+    border-radius: 2.6667vw;
+
+    h1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      background-image: url(../../images/rankbg.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 93.6vw;
+      height: 12.2667vw;
+      border-top-right-radius: 2.6667vw;
+      border-top-left-radius: 2.6667vw;
+
+      img {
+        width: 3.2vw;
+        height: 4.8vw;
+      }
+
+      span {
+        color: #6f4721;
+        font-weight: bold;
+      }
+    }
+
+    >a {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin: 2.1333vw 3.2vw;
+      width: 87.2vw;
+      height: 17.0667vw;
+
+      img {
+        margin-right: 2.1333vw;
+        width: 13.3333vw;
+        height: 17.6vw;
+      }
+
+      span {
+        margin-right: 2.1333vw;
+        margin-bottom: 4.3333vw;
+        display: block;
+        .square();
+      }
+
+      .right {
+
+        h4 {
+          font-size: 4.2667vw;
+          font-weight: bold;
+          line-height: 1.5;
+          color: #191919;
+        }
+
+        p {
+          color: #adadad;
+          font-size: 3.4667vw;
+          line-height: 1.5;
+        }
+      }
+    }
+
+    .more {
+      margin: 0 auto;
+      text-align: center;
+      width: 88.2667vw;
+      height: 8.5333vw;
+      line-height: 8.5333vw;
+      background-color: #f5f5f5;
+      border-radius: 6.4vw;
+
+      a {
+        color: #191919;
+        font-size: 3.7333vw;
+        font-weight: bold;
+
+        span {
+          font-weight: normal;
+        }
+      }
+    }
+  }
+}

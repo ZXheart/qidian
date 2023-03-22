@@ -46,7 +46,7 @@
   background-color: #f0f1f2;
 }
 .highlights {
-  padding-top: 2.3238vh;
+  padding-top: 4.2667vw;
   background-color: #fff;
 }
 .highlights .high-title {
@@ -54,7 +54,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 4.2667vw;
-  height: 4.1979vh;
+  height: 28px;
 }
 .highlights .high-title h2 {
   position: relative;

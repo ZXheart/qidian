@@ -47,7 +47,7 @@
 }
 .free-now {
   margin-bottom: 3.2vw;
-  padding-top: 2.3238vh;
+  padding-top: 4vw;
   background-color: #fff;
 }
 .free-now .free-title {
@@ -55,7 +55,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 4.2667vw;
-  height: 4.1979vh;
+  height: 7.4667vw;
 }
 .free-now .free-title h2 {
   position: relative;

@@ -47,14 +47,14 @@
 }
 .guess {
   margin-bottom: 3.2vw;
-  padding-top: 2.3238vh;
+  padding-top: 4.2667vw;
   background-color: #fff;
 }
 .guess .gs-title {
   display: flex;
   align-items: center;
   padding: 0 4.2667vw;
-  height: 4.1979vh;
+  height: 7.4667vw;
 }
 .guess .gs-title h2 {
   position: relative;

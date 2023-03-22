@@ -47,7 +47,7 @@
 }
 .new-books {
   margin-bottom: 3.2vw;
-  padding-top: 2.3238vh;
+  padding-top: 4.2667vw;
   background-color: #fff;
 }
 .new-books .new-title {
@@ -55,7 +55,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 4.2667vw;
-  height: 4.1979vh;
+  height: 7.4667vw;
 }
 .new-books .new-title h2 {
   position: relative;
@@ -77,8 +77,6 @@
 .new-books .new-title p {
   flex: 1;
   margin-left: 2.1333vw;
-  color: #969ba3;
-  font-size: 3.4667vw;
 }
 .new-books .new-title a {
   color: #969ba3;
@@ -101,10 +99,10 @@
 }
 .new-books .new-list ul li {
   position: relative;
-  margin-top: 2.2488vh;
-  padding: 0 4.2667vw 2.3988vh;
+  margin-top: 4vw;
+  padding: 0 4.2667vw 4.2667vw;
   width: 91.4667vw;
-  height: 16.4917vh;
+  height: 29.3333vw;
 }
 .new-books .new-list ul li::after {
   position: absolute;
@@ -127,14 +125,14 @@
 }
 .new-books .new-list ul li a .left img {
   width: 17.6vw;
-  height: 13.1934vh;
+  height: 23.4667vw;
 }
 .new-books .new-list ul li a .right {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  height: 13.1934vh;
+  height: 23.4667vw;
 }
 .new-books .new-list ul li a .right h3 {
   line-height: 1.4;
@@ -163,30 +161,10 @@
   color: #969ba3;
   font-size: 3.4667vw;
 }
-.new-books .new-list ul li a .right .bottom span {
-  font-size: 3.4667vw;
-  color: #969ba3;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-}
-.new-books .new-list ul li a .right .bottom .bottom-right {
-  font-size: 3.2vw;
-}
 .new-books .new-list ul li a .right .bottom .bottom-right b {
-  border-radius: 0.5333vw;
-  border: 1px solid rgba(150, 155, 163, 0.5);
-  color: #969ba3;
-}
-.new-books .new-list ul li a .right .bottom .bottom-right i {
-  margin-left: 0.5333vw;
-  border-radius: 0.5333vw;
-  border: 1px solid rgba(237, 66, 75, 0.5);
-  color: #ed424b;
-}
-.new-books .new-list ul li a .right .bottom .bottom-right em {
-  margin-left: 0.5333vw;
-  border-radius: 0.5333vw;
-  border: 1px solid rgba(66, 132, 237, 0.5);
-  color: #4284ed;
+  margin-right: 1.3333vw;
+  padding: 0 1.3333vw;
+  border-radius: 1.0667vw;
+  background-color: #f5f5f5;
+  color: #adadad;
 }
