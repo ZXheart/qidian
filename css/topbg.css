@@ -1,0 +1,14 @@
+.container {
+  background-color: #f6f7f9;
+}
+.container > i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 33.6%;
+  background-image: url(../images/topbg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}

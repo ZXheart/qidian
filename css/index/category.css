@@ -22,11 +22,11 @@
 .red-line {
   position: absolute;
   left: 0;
-  top: 0.5997vh;
+  top: 1.6vw;
   display: block;
   content: "";
   width: 0.5333vw;
-  height: 2.3988vh;
+  height: 4.2667vw;
   background-color: #e5353e;
 }
 .grey-bottom-line {
@@ -45,6 +45,16 @@
   height: 1px;
   background-color: #f0f1f2;
 }
+.square {
+  text-align: center;
+  width: 4.2667vw;
+  height: 4.2667vw;
+  line-height: 4.2667vw;
+  background: linear-gradient(180deg, #fc3c48 -3.91%, #ffaeb4 96.09%);
+  border-radius: 1.3333vw 0;
+  color: #fff;
+  font-weight: bold;
+}
 .category {
   margin-bottom: 3.2vw;
   padding-top: 4.2667vw;
@@ -56,6 +66,7 @@
   align-items: center;
   padding: 0 4.2667vw;
   height: 7.4667vw;
+  line-height: 7.4667vw;
 }
 .category .category1 .category1-title h2 {
   position: relative;
@@ -67,11 +78,11 @@
 .category .category1 .category1-title h2::after {
   position: absolute;
   left: 0;
-  top: 0.5997vh;
+  top: 1.6vw;
   display: block;
   content: "";
   width: 0.5333vw;
-  height: 2.3988vh;
+  height: 4.2667vw;
   background-color: #e5353e;
 }
 .category .category1 .category1-title p {
@@ -127,6 +138,7 @@
 }
 .category .category1 .category1-nav ul li a {
   color: #ed424b;
+  font-size: 3.4667vw;
 }
 .category .category1 .category1-list {
   padding-left: 2.1333vw;
@@ -185,7 +197,8 @@
 .category .category2 .category2-nav {
   margin: 6.1333vw auto 1.8667vw;
   width: 91.4667vw;
-  height: 7.7333vw;
+  height: 7.4667vw;
+  line-height: 7.4667vw;
 }
 .category .category2 .category2-nav ul {
   display: flex;
@@ -218,6 +231,7 @@
 }
 .category .category2 .category2-nav ul li a {
   color: #ed424b;
+  font-size: 3.4667vw;
 }
 .category .category2 .category2-list {
   padding-left: 2.1333vw;

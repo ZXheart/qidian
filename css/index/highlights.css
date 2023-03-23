@@ -22,11 +22,11 @@
 .red-line {
   position: absolute;
   left: 0;
-  top: 0.5997vh;
+  top: 1.6vw;
   display: block;
   content: "";
   width: 0.5333vw;
-  height: 2.3988vh;
+  height: 4.2667vw;
   background-color: #e5353e;
 }
 .grey-bottom-line {
@@ -45,6 +45,16 @@
   height: 1px;
   background-color: #f0f1f2;
 }
+.square {
+  text-align: center;
+  width: 4.2667vw;
+  height: 4.2667vw;
+  line-height: 4.2667vw;
+  background: linear-gradient(180deg, #fc3c48 -3.91%, #ffaeb4 96.09%);
+  border-radius: 1.3333vw 0;
+  color: #fff;
+  font-weight: bold;
+}
 .highlights {
   padding-top: 4.2667vw;
   background-color: #fff;
@@ -54,7 +64,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 4.2667vw;
-  height: 28px;
+  height: 7.4667vw;
+  line-height: 7.4667vw;
 }
 .highlights .high-title h2 {
   position: relative;
@@ -66,11 +77,11 @@
 .highlights .high-title h2::after {
   position: absolute;
   left: 0;
-  top: 0.5997vh;
+  top: 1.6vw;
   display: block;
   content: "";
   width: 0.5333vw;
-  height: 2.3988vh;
+  height: 4.2667vw;
   background-color: #e5353e;
 }
 .highlights .high-title a {

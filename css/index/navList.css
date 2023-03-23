@@ -22,11 +22,11 @@
 .red-line {
   position: absolute;
   left: 0;
-  top: 0.5997vh;
+  top: 1.6vw;
   display: block;
   content: "";
   width: 0.5333vw;
-  height: 2.3988vh;
+  height: 4.2667vw;
   background-color: #e5353e;
 }
 .grey-bottom-line {
@@ -44,6 +44,16 @@
   width: 91.4667vw;
   height: 1px;
   background-color: #f0f1f2;
+}
+.square {
+  text-align: center;
+  width: 4.2667vw;
+  height: 4.2667vw;
+  line-height: 4.2667vw;
+  background: linear-gradient(180deg, #fc3c48 -3.91%, #ffaeb4 96.09%);
+  border-radius: 1.3333vw 0;
+  color: #fff;
+  font-weight: bold;
 }
 .nav-list {
   margin: 0 auto 3.2vw;
@@ -140,11 +150,11 @@
 .recommend .re-title h2::after {
   position: absolute;
   left: 0;
-  top: 0.5997vh;
+  top: 1.6vw;
   display: block;
   content: "";
   width: 0.5333vw;
-  height: 2.3988vh;
+  height: 4.2667vw;
   background-color: #e5353e;
 }
 .recommend .re-title p {
@@ -155,9 +165,10 @@
 }
 .recommend .re-title a {
   color: #5790df;
+  font-size: 3.4667vw;
 }
 .recommend .re-title a span {
-  font-size: 4.2667vw;
+  font-size: 4vw;
   font-weight: bold;
 }
 .recommend .re-list {
@@ -220,6 +231,7 @@
   width: 42.9333vw;
   height: 8vw;
   line-height: 8vw;
+  font-size: 3.4667vw;
   border: 1px solid #ed424b;
   color: #ed424b;
   border-radius: 26.4vw;
@@ -235,6 +247,7 @@
   align-items: center;
   padding: 0 4.2667vw;
   height: 7.4667vw;
+  line-height: 7.4667vw;
 }
 .sell-well .sw-title h2 {
   position: relative;
@@ -246,11 +259,11 @@
 .sell-well .sw-title h2::after {
   position: absolute;
   left: 0;
-  top: 0.5997vh;
+  top: 1.6vw;
   display: block;
   content: "";
   width: 0.5333vw;
-  height: 2.3988vh;
+  height: 4.2667vw;
   background-color: #e5353e;
 }
 .sell-well .sw-title a {

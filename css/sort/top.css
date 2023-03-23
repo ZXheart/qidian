@@ -22,11 +22,11 @@
 .red-line {
   position: absolute;
   left: 0;
-  top: 0.5997vh;
+  top: 1.6vw;
   display: block;
   content: "";
   width: 0.5333vw;
-  height: 2.3988vh;
+  height: 4.2667vw;
   background-color: #e5353e;
 }
 .grey-bottom-line {
@@ -45,6 +45,16 @@
   height: 1px;
   background-color: #f0f1f2;
 }
+.square {
+  text-align: center;
+  width: 4.2667vw;
+  height: 4.2667vw;
+  line-height: 4.2667vw;
+  background: linear-gradient(180deg, #fc3c48 -3.91%, #ffaeb4 96.09%);
+  border-radius: 1.3333vw 0;
+  color: #fff;
+  font-weight: bold;
+}
 .container {
   position: relative;
   padding-bottom: 17.6vw;
@@ -54,6 +64,7 @@
 .top {
   position: sticky;
   top: -1px;
+  z-index: 9;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -61,12 +72,15 @@
   width: 100vw;
   height: 12vw;
   line-height: 12vw;
-  background-color: #fff;
   box-shadow: 0 0 0.16rem rgba(0, 0, 0, 0.12);
 }
 .top .left {
   color: #4c4c4c;
   font-weight: bold;
+  font-size: 3.7333vw;
+}
+.top .left a span {
+  font-size: 4.2667vw;
 }
 .top .middle {
   display: flex;
@@ -79,9 +93,12 @@
   line-height: 7.4667vw;
   border-radius: 2.1333vw;
   background-color: #e0e0e0;
+  font-size: 3.4667vw;
+  color: #191919;
 }
 .top .middle > div {
   height: 6.4vw;
+  line-height: 6.4vw;
   flex: 1;
 }
 .top .middle .male {

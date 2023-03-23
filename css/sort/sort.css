@@ -1,4 +1,5 @@
 .sort {
+  position: relative;
   padding: 0 3.2vw;
 }
 .sort > div {

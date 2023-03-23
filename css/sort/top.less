@@ -10,6 +10,7 @@
 .top {
   position: sticky;
   top: -1px;
+  z-index: 9;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,12 +18,19 @@
   width: 100vw;
   height: 12vw;
   line-height: 12vw;
-  background-color: #fff;
+  // background-color: #fff;
   box-shadow: 0 0 0.16rem rgba(0, 0, 0, .12);
 
   .left {
     color: #4c4c4c;
     font-weight: bold;
+    font-size: 3.7333vw;
+
+    a {
+      span {
+        font-size: 4.2667vw;
+      }
+    }
   }
 
   .middle {
@@ -36,9 +44,12 @@
     line-height: 7.4667vw;
     border-radius: 2.1333vw;
     background-color: #e0e0e0;
+    font-size: 3.4667vw;
+    color: #191919;
 
     >div {
       height: 6.4vw;
+      line-height: 6.4vw;
       flex: 1;
     }
 

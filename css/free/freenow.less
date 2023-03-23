@@ -1,0 +1,109 @@
+@import url(../mixins.less);
+
+// 本期限免
+.free-now {
+  position: relative;
+  margin: 3.2vw auto;
+  padding: 3.2vw 0 4.2667vw;
+  background-color: #fff;
+  width: 93.6vw;
+  height: 62.6667vw;
+  border-radius: 2.6667vw;
+
+  .free-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7.4667vw;
+
+    h2 {
+      margin-left: 4.2667vw;
+      color: #191919;
+      font-weight: bold;
+      font-size: 5.3333vw;
+    }
+
+    .time {
+      flex: 1;
+      margin-left: 1.6vw;
+      margin-top: .5333vw;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      text-align: center;
+
+      >div {
+        width: 4.8vw;
+        height: 4.8vw;
+        line-height: 4.8vw;
+        background-color: #4c4c4c;
+        color: #fff;
+        border-radius: 1.0667vw;
+        font-size: 3.2vw;
+        vertical-align: bottom;
+
+        &:nth-child(5) {
+          background-color: #ed424b;
+        }
+      }
+
+      span {
+        padding: 0 .5333vw;
+      }
+    }
+  }
+
+  .free-list {
+    margin-top: 3.2vw;
+    height: 50.4vw;
+
+    ul {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      overflow-x: auto;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+      li {
+        margin-left: 4.2667vw;
+        width: 19.7333vw;
+        height: 47.2vw;
+
+        a {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          overflow: hidden;
+          width: 19.7333vw;
+          height: 47.2vw;
+
+          img {
+            border-radius: 1.0667vw;
+            width: 19.7333vw;
+            height: 26.1333vw;
+          }
+
+          h5 {
+            width: 18.6667vw;
+            color: #191919;
+            font-size: 3.4667vw;
+            font-weight: bold;
+            .two-ellipsis();
+          }
+
+          p {
+            width: 18.6667vw;
+            color: #969ba3;
+            font-size: 3.2vw;
+            .ellipsis();
+          }
+        }
+      }
+    }
+  }
+}

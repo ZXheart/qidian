@@ -22,11 +22,11 @@
 .red-line {
   position: absolute;
   left: 0;
-  top: 0.5997vh;
+  top: 1.6vw;
   display: block;
   content: "";
   width: 0.5333vw;
-  height: 2.3988vh;
+  height: 4.2667vw;
   background-color: #e5353e;
 }
 .grey-bottom-line {
@@ -45,6 +45,16 @@
   height: 1px;
   background-color: #f0f1f2;
 }
+.square {
+  text-align: center;
+  width: 4.2667vw;
+  height: 4.2667vw;
+  line-height: 4.2667vw;
+  background: linear-gradient(180deg, #fc3c48 -3.91%, #ffaeb4 96.09%);
+  border-radius: 1.3333vw 0;
+  color: #fff;
+  font-weight: bold;
+}
 .container {
   position: relative;
   padding-bottom: 17.6vw;
@@ -54,6 +64,7 @@
 .top {
   position: sticky;
   top: -1px;
+  z-index: 9;
 }
 .top .top-bar {
   display: flex;
@@ -63,12 +74,15 @@
   width: 100vw;
   height: 12vw;
   line-height: 12vw;
-  background-color: #fff;
   box-shadow: 0 0 0.16rem rgba(0, 0, 0, 0.12);
 }
 .top .top-bar .left {
   color: #4c4c4c;
   font-weight: bold;
+  font-size: 3.7333vw;
+}
+.top .top-bar .left span {
+  font-size: 3.7333vw;
 }
 .top .top-bar .middle {
   display: flex;
@@ -81,14 +95,25 @@
   line-height: 7.4667vw;
   border-radius: 2.1333vw;
   background-color: #e0e0e0;
+  font-size: 3.4667vw;
 }
 .top .top-bar .middle > div {
-  height: 6.4vw;
   flex: 1;
+  height: 6.4vw;
+  line-height: 6.4vw;
+}
+.top .top-bar .middle > div a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #808080;
 }
 .top .top-bar .middle .male {
   background-color: #fff;
   border-radius: 2.1333vw;
+}
+.top .top-bar .middle .male a {
+  color: #191919;
 }
 .top .top-bar .right {
   display: flex;
@@ -107,7 +132,6 @@
   padding-left: 3.2vw;
   text-align: center;
   height: 13.8667vw;
-  background-color: #fff;
 }
 .top .ranking-nav ul {
   display: flex;
@@ -126,6 +150,7 @@
   line-height: 7.4667vw;
   background-color: #f5f5f5;
   border-radius: 1.6vw;
+  font-size: 3.4667vw;
 }
 .top .ranking-nav ul li:nth-child(1) {
   color: #e5353e;
